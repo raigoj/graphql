@@ -1,0 +1,12 @@
+
+GRAPHQL
+
+This project was made with chartist.
+
+You can host it yourself with either:
+
+python3 -m http.server || python -m SimpleHTTPServer || VSCode life server...
+
+or visit this page:
+
+https://qraphql.raigo.ee

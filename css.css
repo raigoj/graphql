@@ -1,0 +1,145 @@
+body{
+  background-color: black;
+  color: cyan;
+  font-size: 15px;
+}
+#basic > div {
+  margin-top: 40px;
+}
+#basic {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  border-bottom: 1px cyan solid;
+
+}
+#basicId {
+  display: flex;
+  align-items: center;
+}
+#pic {
+  width: 200px;
+  height: 200px;
+}
+#pext {
+  margin-left: 20px;
+}
+.search {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  align-content: center;
+  display: flex;
+}
+.sbox {
+  width: 100%;
+  background-color: black;
+  color: cyan;
+  font-size: 20px;
+  border: 3px solid cyan;
+  border-right: none;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+.sbox:focus {
+  color: cyan;
+}
+.sbut {
+  width: 80px;
+  border: 1px solid cyan;
+  background: cyan;
+  text-align: center;
+  color: black;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+#lvl {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#lvl p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+#xp {
+  margin-top: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#ltxt {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+#ltxt > p {
+  white-space: nowrap;
+  font-size: 15px;
+}
+#nxt {
+  margin-top: 10px;
+  text-align: center;
+}
+#graphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+#prxp {
+  margin-bottom: 100px;
+}
+.ct-series-a .ct-line {
+  stroke: cyan !important;
+}
+.ct-series-a .ct-bar {
+  stroke: cyan !important;
+}
+.ct-series-a .ct-slice-donut {
+  stroke: cyan !important;
+}
+.ct-series-b .ct-slice-donut {
+  stroke: black !important;
+}
+svg.ct-chart-bar, svg.ct-chart-line {
+  overflow: visible;
+}
+span.ct-label {
+  font-size: 15px;
+  white-space: nowrap;
+}
+#prxp .ct-label.ct-label.ct-horizontal.ct-end {
+  font-size: 10px;
+  position: relative;
+  left: 2em;
+  justify-content: flex-end;
+  transform-origin: 100% 0;
+  transform: translate(-100%) rotate(-45deg);
+  white-space: nowrap;
+}
+#otxp .ct-label.ct-label.ct-horizontal.ct-end {
+  font-size: 10px;
+  position: relative;
+  left: 40px;
+  justify-content: flex-end;
+  transform-origin: 100% 0;
+  transform: translate(-100%) rotate(-45deg);
+  white-space: nowrap;
+}
+.ct-grids .ct-grid {
+  stroke: cyan;
+}
+.ct-label {
+  color: cyan !important;
+}

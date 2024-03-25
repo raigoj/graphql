@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GQL</title>
+    <link rel="icon" type="image/x-icon" href="./favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" type="text/css" href="chartist.min.css">
+    <script src="chartist.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="main.js" defer=""></script>
+  </head>
+  <body>
+    <div class="search">
+      <input id="sin" type="text" class="sbox" placeholder="Username">
+      <button id="sbtn" type="submit" class="sbut">GO</button>
+    </div>
+    <div id="basic">
+      <div id="basicId">
+        <img id="pic">
+        <div id="pext">
+          <p id="uname"></p>
+          <p id="uid"></p>
+          <p id="time"></p>
+        </div>
+      </div>
+      <div id="lvl">
+        <div id="xp">
+          <div id="ltxt">
+            <p></p>
+          </div>
+          <div class="ct-chart .ct-square" id="lgraph"></div>
+        </div>
+        <div id="nxt"></div>
+      </div>
+    </div>
+    <div id="graphs"> PROJECT XP <div class="ct-chart ct-major-tenth" id="prxp"></div> OVER TIME XP <div class="ct-chart ct-major-tenth" id="otxp"></div>
+    </div>
+  </body>
+  <canvas class="fps-widget" width="100" height="100"></canvas>
+  </body>
+</html>
